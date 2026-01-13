@@ -224,9 +224,11 @@
 
 .client-cntainer{
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 2fr);
+    /* grid-template-columns: 50% 50%; */
     margin: 60px 0;
-
+    gap: 50px;
+    align-items: center;
 }
 
 .comment{
@@ -260,7 +262,7 @@
 }
 
 .team-section{
-    width: 30%;
+    width: 33%;
     border: 1px solid rgba(22, 22, 21, 0.582);
     align-items: center;
     padding: 45px 0 0;
@@ -344,4 +346,42 @@
 
 .subscribe{
     width: 100%;
+}
+
+
+/* footer */
+footer{
+    width: 80%;
+    margin: 100px auto;
+    text-align: center;
+}
+.footer-upper-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.footer-left{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+
+.footer-right{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.footer-right p{
+    color: #FF6600;
+    cursor: pointer;
+}
+
+.last{
+    margin-top: 30px;
+    color: #0000007c;
 }
