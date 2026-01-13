@@ -18,6 +18,7 @@
     border-radius: 5px;
     background-color: #FF6600;
     color: white;
+    cursor: pointer;
 }
 
 /* Navbar */
@@ -50,6 +51,7 @@
     color: black;
     font-size: 18px;
     line-height: 28px;
+    cursor: pointer;
 }
 
 .login-signup{
@@ -63,7 +65,7 @@
 
 .hero{
     width: 80%;
-    margin: 30px auto;
+    margin: 0px auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -90,3 +92,104 @@
     align-items: center;
     gap: 20px;
 }
+
+.login{
+    cursor: pointer;
+}
+
+.play{
+    cursor: pointer;
+}
+
+/* Vison */
+.Vison{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.graphics-design{
+    margin-top: 80px;
+    max-width: 352px;
+    padding: 41px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px 5px rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.graphics-design .heading{
+    font-size: 26px;
+    line-height: 38px;
+    margin-bottom: 20px;
+}
+
+.graphics-design .graphics-design-discription{
+    font-size: 1rem;
+    color: #000000c2;
+    margin-bottom: 20px;
+}
+
+.vison-contsiner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.service{
+    font-size: 1rem;
+    font-weight: 200;
+}
+
+.vison-title{
+    font-size: 44px;
+    font-weight: 400;
+}
+
+/* mask */
+.mask{
+    width: 80%;
+    margin: 7rem auto;
+}
+
+.mask-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 100px;
+}
+
+.mask-container .mask-image{
+    width: 687px;
+}
+
+.mask-content-heading{
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: rgb(255, 94, 94);
+    margin-bottom: 2rem;
+}
+
+.mask-content-discription{
+    font-size: 1rem;
+    font-weight: 400;
+    max-width: 332px;
+    margin-bottom: 100px;
+}
+
+.explore{
+    padding: 10px 35px;
+    background-color: white;
+    color: rgb(255, 94, 94);
+    border: 1px solid rgb(255, 94, 94);
+    border-radius: 30px;
+    cursor: pointer;
+}
+
