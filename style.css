@@ -385,3 +385,162 @@ footer{
     margin-top: 30px;
     color: #0000007c;
 }
+
+
+.display-none{
+    display: none;
+}
+
+/* responsive for small device */
+@media screen and (max-width:576px) {
+    .nav-container {
+        flex-direction: column;
+    }
+
+    .hero {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .hero-title {
+        font-size: 1.8rem;
+        line-height: 3rem;
+    }
+    
+    .nav-menu ul {
+        flex-direction: column;
+        margin-bottom: 30px;
+    }
+
+    .login-signup {
+        gap: 20px;
+        margin-bottom: 20px;
+    }
+
+    img {
+        width: 100%;
+    }
+
+    /* vision */
+    .vison-contsiner {
+        flex-direction: column;
+    }
+
+    /* mask */
+    .mask-container {
+        flex-direction: column;
+    }
+
+    .mask-content-discription {
+        margin-bottom: 50px;
+    }
+
+    .mask-container .mask-image {
+        width: 100%;
+    }
+
+    /* client */
+    .client-cntainer {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 10px;
+    }
+
+    /* team */
+    .team-board {
+        flex-direction: column;
+    }
+
+    .team-section {
+        width: 100%;
+    }
+    
+    .team-section img{
+        width: 50%;
+    }
+    
+    /* kham */
+    .kham-container {
+        flex-direction: column;
+    }
+
+    /* footer */
+    .footer-upper-container {
+        flex-direction: column;
+    }
+
+    .footer-right {
+        flex-direction: column;
+        margin-top: 20px;
+    }
+
+}
+
+@media screen and (min-width:576px) and (max-width:992px) {
+    .nav-container {
+        flex-direction: column;
+    }
+
+    .nav-menu ul {
+        width: 100%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .login-signup {
+        gap: 40px;
+        margin-bottom: 60px;
+    }
+
+    .hero {
+        flex-direction: column;
+    }
+
+    .hero-content{
+        margin-bottom: 60px;
+    }
+
+    img {
+        width: 100%;
+    }
+
+    .vison-contsiner {
+        flex-direction: column;
+    }
+
+    .mask-container {
+        flex-direction: column;
+    }
+
+    .mask-content-discription {
+        margin-bottom: 40px;
+    }
+
+    .mask-container .mask-image {
+        width: 100%;
+    }
+
+    .client-cntainer {
+        gap: 20px;
+    }
+
+    .team-board {
+        flex-direction: column;
+    }
+
+    .team-section {
+        width: 100%;
+    }
+
+    .team-section img{
+        width: 50%;
+    }
+
+    .footer-upper-container {
+        flex-direction: column;
+    }
+
+    .footer-right {
+        margin-top: 20px;
+    }
+}
